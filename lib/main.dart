@@ -241,13 +241,13 @@ class _TranslatorHomePageState extends State<TranslatorHomePage> {
             children: [
               Text(
                 'Enter an English sentence in SVO order:\n'
-                'Subject must not be a noun-noun compound.\n'
-                'Object can be a single noun or "fish children"/"fish child".\n'
-                'e.g.,\n'
-                'the lions eat fish children\n'
-                'lion chased dog\n'
-                'cat sees the dog\n'
-                'the cat chased fish',
+                'Subject must not be a noun-noun compound.\n',
+                // 'Object can be a single noun or "fish children"/"fish child".\n'
+                // 'e.g.,\n'
+                // 'the lions eat fish children\n'
+                // 'lion chased dog\n'
+                // 'cat sees the dog\n'
+                // 'the cat chased fish',
                 style: Theme.of(context).textTheme.titleMedium,
               ),
               const SizedBox(height: 12),
