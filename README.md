@@ -1,16 +1,46 @@
-# transalator
+# English → Yorùbá SVO Translator
 
-A new Flutter project.
+A simple Flutter web app that translates English Subject–Verb–Object (SVO) sentences into Yorùbá.  
+Supports basic nouns, verbs, determiners, and special object noun compounds such as "fish children" (→ "ọmọ ẹja").
 
-## Getting Started
+**Developed for CPE510 (Human Language Processing) Lab Practicals**
 
-This project is a starting point for a Flutter application.
+[Live Demo](https://your-username.github.io/your-repo/) <!-- Replace with your actual link after deployment! -->
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## ✨ Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Instantly translates English SVO sentences to Yorùbá
+- Accepts and understands determiners (`the`, `a`) and plural nouns
+- Handles special object compounds: “fish children” → “ọmọ ẹja”
+- Simple, mobile-friendly interface
+- Built entirely with Flutter Web
+
+---
+
+## 🚀 Usage
+
+Enter your English sentence in the input box, using Subject–Verb–Object order.  
+**Examples:**
+- `the lion chased a dog`
+- `cats eat fish`
+- `the lions eat fish children`
+- `moon sees dog`
+- `cat chased fish`
+- `dog ate the fish`
+
+The Yorùbá translation will appear below.
+
+---
+
+## 📝 Supported Words
+
+- **Determiners:** `the`, `a` (optional)
+- **Subjects/Objects:** `cat(s)`, `dog(s)`, `lion(s)`, `moon(s)`, `fish`, `child(ren)`
+- **Special object compound:** `fish children` or `fish child`
+- **Verbs:** `saw`, `see`, `sees`, `chased`, `ate`, `eats`, `eat`
+
+---
+
+**Made with Flutter ❤️**
